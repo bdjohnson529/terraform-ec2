@@ -25,7 +25,7 @@ terraform destroy
 ```
 
 ## SSH into EC2
-Modify `key_name` within the `aws_instance` to the name of your key. Set the permissions on your key.
+Set the permissions on your key.
 ```bash
 chmod 400 retool-key.pem
 ```
